@@ -1,0 +1,25 @@
+.mainconten{
+    width: 50%;
+    margin: 0 auto;
+}
+div h3{
+    background-color: red;
+    text-align: center;
+    height: 40px;
+    font-size: 30px;
+}
+div p{
+    text-align: center;
+}
+.conten{
+    background-color: seagreen;
+    height: 130px;
+}
+.input{
+    text-align: center;
+}
+.btn:hover{
+    background-color: tomato;
+    opacity: 0.4;
+    transform: scale(1.2,1.2);
+}

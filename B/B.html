@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <!-- <style>
+        .mainconten{
+            width: 50%;
+            margin: 0 auto;
+        }
+        div h3{
+            background-color: red;
+            text-align: center;
+            height: 40px;
+            font-size: 30px;
+        }
+        div p{
+            text-align: center;
+        }
+        .conten{
+            background-color: seagreen;
+            height: 130px;
+        }
+        .input{
+            text-align: center;
+        }
+        .btn:hover{
+            background-color: tomato;
+            opacity: 0.4;
+        }
+    </style> -->
+    <div class="mainconten">
+        <div class="conten">
+        <div> 
+            <div>
+                <h3>LUCKY NUMBER</h3>
+            </div>
+            <p><b>Hãy dự đoán con số may mắn của bạn từ 0 đến 10</b></p>
+        </div>
+        <div class="input">
+            <form>    
+                <input type="text" placeholder="Nhập con số bạn dự đoán" id="inp">
+                <button onclick="roll()" class="btn" >Quay Số</button>
+                <button type="reset" style="display: none;">reset</button>  
+            </form>
+        </div>
+        </div>
+    </div>
+    <!-- <script>
+        function roll(){
+            var inputNumber = document.getElementById('inp').value;
+            var reg = /^[0-9]/;
+            if(inputNumber == '' || !reg.test(inputNumber) && inputNumber<0 || inputNumber>10)
+                alert('Bạn cần nhập vào một số từ 0 đến 10');
+
+            else{
+                do{
+                    var randomNum =   Math.floor(Math.random() * 11);
+                    var cout = 0;
+                    if(inputNumber == randomNum)
+                        alert('BẠN ĐÃ NHẬP ĐÚNG SỐ MAY MẮN ĐÓ LÀ ' + randomNum);
+                    else{
+                        alert("BẠN ĐÃ NHẬP SAI!!! SỐ MAY MẮN ĐÓ LÀ " + randomNum);
+                        cout++;    
+                    }
+                }while(cout == 3);
+            }
+}
+    </script> -->
+    <script src="/B/B.js"></script>
+</body>
+
+</html>

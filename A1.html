@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <script>
+        function findOppNum(n,inputNumber){
+            var n,inputNumber;
+            if(n%2 != 0 && n <4 || n > 20 && inputNumber < 0 || inputNumber >= n )
+                alert("Số n không thỏa mãn");
+            else{
+                var OppNum = (( n + inputNumber*2) /2) % n;
+            }
+            return OppNum;
+        }
+        console.log(findOppNum(10,2));
+    </script>
+</body>
+</html>
